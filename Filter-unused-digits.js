@@ -11,3 +11,9 @@ Note: the digits in the resulting string should be sorted.
 
 
 // Solution
+
+function unusedDigits() {
+  const NUMS = [0,1,2,3,4,5,6,7,8,9,];
+  const input = [...arguments].join('');
+  return NUMS.filter(num => !input.includes(num)).join('');
+}
