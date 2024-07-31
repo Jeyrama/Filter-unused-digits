@@ -8,3 +8,6 @@ Example:
 
 Note: the digits in the resulting string should be sorted.
 */
+
+
+// Solution
